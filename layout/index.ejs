@@ -9,7 +9,7 @@
       <h2 class="post-list__post-title post-title"><a href="<%- config.root %><%- link%>" title="link to post.title"><%= post.title%></a></h2>
       <p class="excerpt">
     <% if (post.excerpt){ %>
-      <%= post.excerpt %>
+      <%- post.excerpt %>
     <% } else { %>
       <%= strip_html(post.content).substring(0, 200)%>&hellip;
     <% } %>
@@ -37,7 +37,5 @@
   </nav>
 <% } %>
 
-<!-- mathjax -->
-<%- partial('_partial/mathjax') %>
 </div>
 

@@ -2,6 +2,15 @@
 <body class="home-template no-js">
     <%- js("//cdn.bootcss.com/jquery/2.1.4/jquery.min.js") %>
     <%- js("js/main.js") %>
+    <!--highlight-->
+    <%- css("//cdn.bootcss.com/highlight.js/8.0/styles/tomorrow.min.css") %>
+    <%- js("//cdn.bootcss.com/highlight.js/8.0/highlight.min.js") %>
+    <script >hljs.initHighlightingOnLoad();</script>
+
+    <%- js("js/particle.js") %>
+    <%- js("js/love.js") %>
+
+      
     <span class="mobile btn-mobile-menu">
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
@@ -18,19 +27,15 @@
     </div>
 
     
-    
+
     <%- partial('_partial/google_analytics') %>
     <%- partial('_partial/baidu_tongji') %>
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
     
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    
-    <!--背景-->
-    <script type="text/javascript"  src="/js/particle.js"></script>
-
-    <!-- 页面点击小红心 -->
-    <script type="text/javascript" src="/js/love.js"></script>
-
     </script>
     
+
+
+
 </body>
 </html>

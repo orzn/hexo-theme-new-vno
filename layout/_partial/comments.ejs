@@ -1,5 +1,4 @@
 <% if (config.disqus_shortname && (page.comments || theme.comment_on_non_post)){ %>
-
 <section class="post-comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -11,7 +10,7 @@
   <% } %>
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
+      (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
           //dsq.src = '/js/embed.js';
           //将disqus使用https协议将大大提高显示速度
@@ -21,12 +20,10 @@
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-  <a href="https://disqus.com" class="dsq-brlink"><span class="logo-disqus"></span></a>
   <noscript><a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></noscript>
-
+  <a href="https://disqus.com" class="dsq-brlink"><span class="logo-disqus"></span></a>
+  
 </section>
-
 <% } else if (theme.duoshuo_shortname && (page.comments || theme.comment_on_non_post)) {%>
 <section class="post-comments">
   <!-- 多说评论框 start -->

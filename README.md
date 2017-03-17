@@ -126,15 +126,13 @@ npm install hexo-generator-json-content --save
 
 ### 数学公式支持
 
-# mathjax
-mathjax: true
-由于资源考虑，默认是不加载mathjax的，若需使用请在文章头部添加：
-```yml
-如下示例：
----
-title: 侧耳倾听我的心
-date: 2017-02-18 22:55:08
-tags: 观观影
-mathjax: true 
----
+matnjax设为默认开启了。
+
+### 搜索
+本主题移植了由 [PPOffice](https://ppoffice.github.io/) 开发的 [icarus](https://github.com/ppoffice/hexo-theme-icarus) 主题中的站内搜索（insight search），使用时需要安装 `hexo-generator-json-content` 生成索引。
+
 ```
+npm install hexo-generator-json-content --save
+```
+### 背景
+背景引用了由 [VincentGarreau](https://github.com/VincentGarreau) 开发的 [particles](https://github.com/akanezorap/particles.js). 
