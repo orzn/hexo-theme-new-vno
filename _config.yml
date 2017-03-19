@@ -10,11 +10,11 @@ social:
   github: https://github.com/akanezorap
   stack_overflow: 
   facebook: 
-  twitter: https://twitter.com/akaneozrap
+  twitter: https://twitter.com/akanezorap
   google_plus: 
 
 page_comment: false
-logo: /images/logo.png
+logo: /images/logo.jpg
 background:
   cover: /images/background-cover.jpg
   color: cover-purple
@@ -22,12 +22,7 @@ background:
 archive_date_format: MMM DD
 fancybox: true
 
-
-duoshuo_shortname: 
-
-comment_on_non_post: false
-
 google_analytics: 
-baidu_tongji: 
-favicon: /images/avatar-small.png
-
+baidu_tongji:
+favicon: /images/logo.jpg
+highlight_theme: normal
