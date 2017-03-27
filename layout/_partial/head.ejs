@@ -44,6 +44,11 @@
     <%- css('css/vno') %>
     <%- css('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css') %>
 
+    <!--highlight-->
+    <%- css("//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/solarized-light.min.css") %>
+    <%- js("//cdn.bootcss.com/highlight.js/9.10.0/highlight.min.js") %>
+    <script >hljs.initHighlightingOnLoad();</script>
+
     <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
     <% } %>
