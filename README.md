@@ -124,10 +124,6 @@ npm install hexo-generator-json-content --save
 将主题目录下 `_config.yml` 中的 `search` 字段修改为 `true` 即可使用。
 
 
-### 数学公式支持
-
-matnjax设为默认开启了。
-
 ### 搜索
 本主题移植了由 [PPOffice](https://ppoffice.github.io/) 开发的 [icarus](https://github.com/ppoffice/hexo-theme-icarus) 主题中的站内搜索（insight search），使用时需要安装 `hexo-generator-json-content` 生成索引。
 
