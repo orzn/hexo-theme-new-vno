@@ -123,9 +123,5 @@ npm install hexo-generator-json-content --save
 
 将主题目录下 `_config.yml` 中的 `search` 字段修改为 `true` 即可使用。
 
-
-```
-npm install hexo-generator-json-content --save
-```
 ### 背景
 背景引用了由 [VincentGarreau](https://github.com/VincentGarreau) 开发的 [particles](https://github.com/akanezorap/particles.js). 
